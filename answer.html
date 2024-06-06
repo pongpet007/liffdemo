@@ -140,6 +140,7 @@
     }
 
     async function main() {
+      alert('x');
       liff.ready.then(() => {
         document.getElementById("isLoggedIn").append(liff.isLoggedIn())
         if (liff.isLoggedIn()) {
